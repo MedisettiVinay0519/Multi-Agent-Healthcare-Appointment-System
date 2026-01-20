@@ -1,0 +1,14 @@
+# Core Frameworks
+langchain
+langchain-openai
+langchain-core
+langgraph
+langchain-groq
+
+# Data Handling & Validation
+pandas
+pydantic
+typing-extensions
+
+# Environment & Utilities
+python-dotenv
