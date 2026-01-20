@@ -23,7 +23,7 @@ A robust, AI-driven healthcare management system built with **LangGraph** and **
 
 The system is modeled as a state machine using **LangGraph**, featuring a supervisor-worker pattern for efficient task delegation.
 
-![System Architecture](./system_architecture.png)
+![System Architecture](System%20Architecture/System%20Architecture.png)
 1. **START** → **Supervisor**: Analyzes the query.
 2. **Supervisor** → **Information Node**: If the user asks "When is Dr. Smith available?"
 3. **Supervisor** → **Booking Node**: If the user asks "Book an appointment for me."
