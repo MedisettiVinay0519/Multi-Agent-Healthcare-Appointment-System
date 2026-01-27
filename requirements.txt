@@ -1,14 +1,20 @@
-# Core Frameworks
-langchain
-langchain-openai
-langchain-core
-langgraph
-langchain-groq
+# UI
+streamlit>=1.31.0
 
-# Data Handling & Validation
-pandas
-pydantic
-typing-extensions
+# Core LLM framework
+langchain>=0.1.20
+langchain-core>=0.1.45
+langchain-groq>=0.1.3
 
-# Environment & Utilities
-python-dotenv
+# Multi-agent orchestration
+langgraph>=0.0.40
+
+# Data handling
+pandas>=2.1.0
+
+# Validation & typing
+pydantic>=2.6.0
+typing-extensions>=4.9.0
+
+# Environment variables
+python-dotenv>=1.0.1
